@@ -1,0 +1,55 @@
+button {
+    border: none;
+    background-color: #afafaf;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 15px 15px 22px 22px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 6px;
+  }
+  
+  button:hover {
+    background-color: #84898a;
+    border: 2px solid rgba(25,25,25,.8);
+    
+  }
+  
+  .equals {
+    grid-column: 3 / 6;
+    background-color: #676c6d;
+  }
+  
+  .equals:hover {
+    background-color: #2d2e2c;
+  }
+
+  .clear {
+    background-color: rgb(236,227,196);
+    /* color: rgb(179, 131, 86); */
+    color: rgb(107,81,57);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(107, 81, 57); */
+ }
+
+ .clear:hover {
+  background-color: rgb(168, 163, 146);
+ }
+
+ .math {
+   background-color: rgb(179, 131, 86);
+ }
+
+ .math:hover {
+  background-color: rgb(107, 81, 57);
+ }
+
+ .memory {
+  background-color: #676c6d;
+ }
+
+ .memory:hover {
+  background-color: #3e4041;
+ }
